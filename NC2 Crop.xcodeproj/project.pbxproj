@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE062F82C1ACDC000599E89 /* NC2_CropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE062F72C1ACDC000599E89 /* NC2_CropApp.swift */; };
+		CDE062FA2C1ACDC000599E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE062F92C1ACDC000599E89 /* ContentView.swift */; };
+		CDE062FC2C1ACDC100599E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE062FB2C1ACDC100599E89 /* Assets.xcassets */; };
+		CDE062FF2C1ACDC100599E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE062FE2C1ACDC100599E89 /* Preview Assets.xcassets */; };
+		CDE063092C1ACDC100599E89 /* NC2_CropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063082C1ACDC100599E89 /* NC2_CropTests.swift */; };
+		CDE063132C1ACDC100599E89 /* NC2_CropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063122C1ACDC100599E89 /* NC2_CropUITests.swift */; };
+		CDE063152C1ACDC100599E89 /* NC2_CropUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063142C1ACDC100599E89 /* NC2_CropUITestsLaunchTests.swift */; };
+		CDE063242C1BC83600599E89 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063232C1BC83600599E89 /* Filter.swift */; };
+		CDE063262C1BCDF300599E89 /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063252C1BCDF300599E89 /* Crop.swift */; };
+		CDE063282C1BCE1900599E89 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063272C1BCE1900599E89 /* CalenderView.swift */; };
+		CDE0632A2C1BE05E00599E89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063292C1BE05E00599E89 /* HomeView.swift */; };
+		CDE0632C2C1BE24600599E89 /* CustomImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0632B2C1BE24600599E89 /* CustomImagePicker.swift */; };
+		CDE0632E2C20159900599E89 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0632D2C20159900599E89 /* ImagePicker.swift */; };
+		CDE063742C226A0500599E89 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE063732C226A0500599E89 /* ShapeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE063052C1ACDC100599E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE062EC2C1ACDC000599E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE062F32C1ACDC000599E89;
+			remoteInfo = "NC2 Crop";
+		};
+		CDE0630F2C1ACDC100599E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE062EC2C1ACDC000599E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE062F32C1ACDC000599E89;
+			remoteInfo = "NC2 Crop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDE062F42C1ACDC000599E89 /* NC2 Crop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC2 Crop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE062F72C1ACDC000599E89 /* NC2_CropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_CropApp.swift; sourceTree = "<group>"; };
+		CDE062F92C1ACDC000599E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDE062FB2C1ACDC100599E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE062FE2C1ACDC100599E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDE063042C1ACDC100599E89 /* NC2 CropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC2 CropTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE063082C1ACDC100599E89 /* NC2_CropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_CropTests.swift; sourceTree = "<group>"; };
+		CDE0630E2C1ACDC100599E89 /* NC2 CropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC2 CropUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE063122C1ACDC100599E89 /* NC2_CropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_CropUITests.swift; sourceTree = "<group>"; };
+		CDE063142C1ACDC100599E89 /* NC2_CropUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC2_CropUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDE063232C1BC83600599E89 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		CDE063252C1BCDF300599E89 /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
+		CDE063272C1BCE1900599E89 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		CDE063292C1BE05E00599E89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDE0632B2C1BE24600599E89 /* CustomImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImagePicker.swift; sourceTree = "<group>"; };
+		CDE0632D2C20159900599E89 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CDE063732C226A0500599E89 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE062F12C1ACDC000599E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE063012C1ACDC100599E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE0630B2C1ACDC100599E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE062EB2C1ACDC000599E89 = {
+			isa = PBXGroup;
+			children = (
+				CDE062F62C1ACDC000599E89 /* NC2 Crop */,
+				CDE063072C1ACDC100599E89 /* NC2 CropTests */,
+				CDE063112C1ACDC100599E89 /* NC2 CropUITests */,
+				CDE062F52C1ACDC000599E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE062F52C1ACDC000599E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE062F42C1ACDC000599E89 /* NC2 Crop.app */,
+				CDE063042C1ACDC100599E89 /* NC2 CropTests.xctest */,
+				CDE0630E2C1ACDC100599E89 /* NC2 CropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE062F62C1ACDC000599E89 /* NC2 Crop */ = {
+			isa = PBXGroup;
+			children = (
+				CDE062F72C1ACDC000599E89 /* NC2_CropApp.swift */,
+				CDE063292C1BE05E00599E89 /* HomeView.swift */,
+				CDE063272C1BCE1900599E89 /* CalenderView.swift */,
+				CDE063232C1BC83600599E89 /* Filter.swift */,
+				CDE063732C226A0500599E89 /* ShapeView.swift */,
+				CDE063252C1BCDF300599E89 /* Crop.swift */,
+				CDE0632B2C1BE24600599E89 /* CustomImagePicker.swift */,
+				CDE062F92C1ACDC000599E89 /* ContentView.swift */,
+				CDE0632D2C20159900599E89 /* ImagePicker.swift */,
+				CDE062FB2C1ACDC100599E89 /* Assets.xcassets */,
+				CDE062FD2C1ACDC100599E89 /* Preview Content */,
+			);
+			path = "NC2 Crop";
+			sourceTree = "<group>";
+		};
+		CDE062FD2C1ACDC100599E89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDE062FE2C1ACDC100599E89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDE063072C1ACDC100599E89 /* NC2 CropTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE063082C1ACDC100599E89 /* NC2_CropTests.swift */,
+			);
+			path = "NC2 CropTests";
+			sourceTree = "<group>";
+		};
+		CDE063112C1ACDC100599E89 /* NC2 CropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE063122C1ACDC100599E89 /* NC2_CropUITests.swift */,
+				CDE063142C1ACDC100599E89 /* NC2_CropUITestsLaunchTests.swift */,
+			);
+			path = "NC2 CropUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE062F32C1ACDC000599E89 /* NC2 Crop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE063182C1ACDC100599E89 /* Build configuration list for PBXNativeTarget "NC2 Crop" */;
+			buildPhases = (
+				CDE062F02C1ACDC000599E89 /* Sources */,
+				CDE062F12C1ACDC000599E89 /* Frameworks */,
+				CDE062F22C1ACDC000599E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NC2 Crop";
+			productName = "NC2 Crop";
+			productReference = CDE062F42C1ACDC000599E89 /* NC2 Crop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE063032C1ACDC100599E89 /* NC2 CropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE0631B2C1ACDC100599E89 /* Build configuration list for PBXNativeTarget "NC2 CropTests" */;
+			buildPhases = (
+				CDE063002C1ACDC100599E89 /* Sources */,
+				CDE063012C1ACDC100599E89 /* Frameworks */,
+				CDE063022C1ACDC100599E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE063062C1ACDC100599E89 /* PBXTargetDependency */,
+			);
+			name = "NC2 CropTests";
+			productName = "NC2 CropTests";
+			productReference = CDE063042C1ACDC100599E89 /* NC2 CropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE0630D2C1ACDC100599E89 /* NC2 CropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE0631E2C1ACDC100599E89 /* Build configuration list for PBXNativeTarget "NC2 CropUITests" */;
+			buildPhases = (
+				CDE0630A2C1ACDC100599E89 /* Sources */,
+				CDE0630B2C1ACDC100599E89 /* Frameworks */,
+				CDE0630C2C1ACDC100599E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE063102C1ACDC100599E89 /* PBXTargetDependency */,
+			);
+			name = "NC2 CropUITests";
+			productName = "NC2 CropUITests";
+			productReference = CDE0630E2C1ACDC100599E89 /* NC2 CropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE062EC2C1ACDC000599E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CDE062F32C1ACDC000599E89 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CDE063032C1ACDC100599E89 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CDE062F32C1ACDC000599E89;
+					};
+					CDE0630D2C1ACDC100599E89 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CDE062F32C1ACDC000599E89;
+					};
+				};
+			};
+			buildConfigurationList = CDE062EF2C1ACDC000599E89 /* Build configuration list for PBXProject "NC2 Crop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE062EB2C1ACDC000599E89;
+			productRefGroup = CDE062F52C1ACDC000599E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE062F32C1ACDC000599E89 /* NC2 Crop */,
+				CDE063032C1ACDC100599E89 /* NC2 CropTests */,
+				CDE0630D2C1ACDC100599E89 /* NC2 CropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE062F22C1ACDC000599E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE062FF2C1ACDC100599E89 /* Preview Assets.xcassets in Resources */,
+				CDE062FC2C1ACDC100599E89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE063022C1ACDC100599E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE0630C2C1ACDC100599E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE062F02C1ACDC000599E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE063242C1BC83600599E89 /* Filter.swift in Sources */,
+				CDE0632A2C1BE05E00599E89 /* HomeView.swift in Sources */,
+				CDE063282C1BCE1900599E89 /* CalenderView.swift in Sources */,
+				CDE063742C226A0500599E89 /* ShapeView.swift in Sources */,
+				CDE062FA2C1ACDC000599E89 /* ContentView.swift in Sources */,
+				CDE062F82C1ACDC000599E89 /* NC2_CropApp.swift in Sources */,
+				CDE0632E2C20159900599E89 /* ImagePicker.swift in Sources */,
+				CDE0632C2C1BE24600599E89 /* CustomImagePicker.swift in Sources */,
+				CDE063262C1BCDF300599E89 /* Crop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE063002C1ACDC100599E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE063092C1ACDC100599E89 /* NC2_CropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE0630A2C1ACDC100599E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE063152C1ACDC100599E89 /* NC2_CropUITestsLaunchTests.swift in Sources */,
+				CDE063132C1ACDC100599E89 /* NC2_CropUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE063062C1ACDC100599E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE062F32C1ACDC000599E89 /* NC2 Crop */;
+			targetProxy = CDE063052C1ACDC100599E89 /* PBXContainerItemProxy */;
+		};
+		CDE063102C1ACDC100599E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE062F32C1ACDC000599E89 /* NC2 Crop */;
+			targetProxy = CDE0630F2C1ACDC100599E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDE063162C1ACDC100599E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE063172C1ACDC100599E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE063192C1ACDC100599E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC2 Crop/Preview Content\"";
+				DEVELOPMENT_TEAM = 83668N4L4C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vero.NC2-Crop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE0631A2C1ACDC100599E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC2 Crop/Preview Content\"";
+				DEVELOPMENT_TEAM = 83668N4L4C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vero.NC2-Crop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDE0631C2C1ACDC100599E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83668N4L4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vero.NC2-CropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC2 Crop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NC2 Crop";
+			};
+			name = Debug;
+		};
+		CDE0631D2C1ACDC100599E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83668N4L4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vero.NC2-CropTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC2 Crop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NC2 Crop";
+			};
+			name = Release;
+		};
+		CDE0631F2C1ACDC100599E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83668N4L4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vero.NC2-CropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NC2 Crop";
+			};
+			name = Debug;
+		};
+		CDE063202C1ACDC100599E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83668N4L4C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vero.NC2-CropUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NC2 Crop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE062EF2C1ACDC000599E89 /* Build configuration list for PBXProject "NC2 Crop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE063162C1ACDC100599E89 /* Debug */,
+				CDE063172C1ACDC100599E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE063182C1ACDC100599E89 /* Build configuration list for PBXNativeTarget "NC2 Crop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE063192C1ACDC100599E89 /* Debug */,
+				CDE0631A2C1ACDC100599E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE0631B2C1ACDC100599E89 /* Build configuration list for PBXNativeTarget "NC2 CropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE0631C2C1ACDC100599E89 /* Debug */,
+				CDE0631D2C1ACDC100599E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE0631E2C1ACDC100599E89 /* Build configuration list for PBXNativeTarget "NC2 CropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE0631F2C1ACDC100599E89 /* Debug */,
+				CDE063202C1ACDC100599E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE062EC2C1ACDC000599E89 /* Project object */;
+}
