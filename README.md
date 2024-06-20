@@ -130,6 +130,7 @@ if let image {
 - 모양 클리핑
     - 'clipShape(CropShape(crop: crop))': CropShape를 사용하여 이미지를 자릅니다. CropShape는 자르기 모양을 정의하는 구조체입니다.
 
+
 ### 사진 필터 기능(Image Filter)
 ```swift
 @State var brightnessAdjust: Double = 0 // 밝기
